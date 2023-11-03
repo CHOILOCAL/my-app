@@ -1,8 +1,13 @@
+import Footer from 'pages/Footer';
+import Header from 'pages/Header';
+
 function App() {
   return (
-    <div>
+    <>
+      <Header />
       <h1>test</h1>
-    </div>
+      <Footer />
+    </>
   );
 }
 
